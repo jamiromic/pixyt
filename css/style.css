@@ -1,0 +1,209 @@
+/*Regole di Reset*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+img {
+    max-width: 100%;
+
+}
+
+ul,
+ol,
+menu {
+
+    list-style: none;
+
+}
+
+
+main {
+    background-color: #F1F2F5;
+    padding-top: 0.75rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.header_menu {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.title {
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    padding: 0.30rem;
+    border-radius: 5%;
+    font-weight: 700;
+
+}
+
+
+.input-w, .input-h{
+    text-align: center;
+}
+
+.color_table {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0.5rem 0.15rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.75rem;
+    gap: 8px;
+}
+
+
+.table_colors {
+
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+
+
+}
+
+
+.container {
+
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding;: 20px
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.pixel {
+
+    border: 1px solid rgb(179, 173, 173,0.25);
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+    
+}
+
+
+
+
+
+/* PALETTE COLORI - START*/ 
+
+
+.bg_black {
+    background-color: black;
+}
+
+.bg_white {
+    background-color: white;
+    border: 1px solid rgb(179, 173, 173,0.25);
+}
+
+.bg_rose {
+    background-color: #FC9B9B;
+}
+
+.bg_red {
+    background-color: #ED3D3C;
+}
+
+.bg_marron {
+    background-color: #B01A1A;
+}
+
+.bg_yellow {
+    background-color: #FEB269;
+}
+
+.bg_orange {
+    background-color: #F86816;
+}
+
+.bg_marron1 {
+    background-color: #B9390F;
+}
+
+.bg_yellow1 {
+    background-color: #FDCC44;
+}
+
+.bg_orange1 {
+    background-color: #F2940E;
+}
+
+.bg_marron2 {
+    background-color: #AA490D;
+}
+
+.bg_yellow2 {
+    background-color: #FDDC3E;
+}
+
+.bg_yellow3 {
+    background-color: #E7AA0C;
+}
+
+.bg_marron3 {
+    background-color: #96570B;
+}
+
+.bg_green {
+    background-color: #B5F059;
+}
+
+.bg_green2 {
+    background-color: #79C616;
+}
+
+.bg_green3 {
+    background-color: #437111;
+}
+
+.bg_green4 {
+    background-color: #7BEEA2;
+}
+
+.bg_green5 {
+    background-color: #1FBD52;
+}
+
+.bg_green6 {
+    background-color: #147535;
+}
+
+.bg_green7 {
+    background-color: #63E3AE;
+}
+
+.bg_green8 {
+    background-color: #12B176;
+}
+
+.bg_green9 {
+    background-color: #086D4E;
+}
+
+
+/* PALETTE COLORI - END*/ 
+
+
+
